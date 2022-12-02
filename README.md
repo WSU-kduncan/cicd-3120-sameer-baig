@@ -7,23 +7,24 @@
 
 - Downloaded Docker from desktop
 - Dockerfile includes off of what image to build off of, what things to isntall and update, and copy from whatever host directory to a container directory
-- how to run the container
-- how to view the project running in the container (open a browser...go to ip and port...)
+- docker build -t project:latest -t project:0.1 .
+	- docker run --name website -it -p 8080:80 project 
+- localhost:80
 
 # DockerHub
 
-- Process to create public repo in DockerHub
+- 
 - How to authenticate with DockerHub via CLI using Dockerhub credentials
-  - what credentials would you recommend providing?
-- How to push container to Dockerhub
+  - Credentials: Authentication tokens
+- 
 
 # GitHub Actions
 
 - Configuring GitHub Secrets
   - What secrets were set based on what info
 - Behavior of GitHub workflow
-  - what does it do and when
-  - what variables in workflow are custom to your project
+  - Jobs done when triggered by a certain event. 
+  - 
 
 # Deployment
 
