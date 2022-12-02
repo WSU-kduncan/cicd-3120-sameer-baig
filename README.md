@@ -1,13 +1,12 @@
 # Project Overview
 
-- what is the point of this project and what tools are used
+- Project Overview: Using containers to run a website with the required dependencies like apache2
 - Part 4 - Diagramming goes here
-  - Include a diagram (or diagrams) of your entire workflow. Meaning it should start with a project change / update, the steps that happen in between, and end with the updated version when the server is queried (web page is accessed)
 
 # Run Project Locally
 
-- how you installed docker + dependencies (WSL2, for example)
-- how to build the container
+- Downloaded Docker from desktop
+- Dockerfile includes off of what image to build off of, what things to isntall and update, and copy from whatever host directory to a container directory
 - how to run the container
 - how to view the project running in the container (open a browser...go to ip and port...)
 
